@@ -1,4 +1,4 @@
-import AuthNavigation from 'components/lib/forms/auth-navigation';
+//import AuthNavigation from 'components/lib/forms/auth-navigation';
 import IndividualLoginForm from 'components/login/login-form';
 import AuthIcon from 'components/lib/forms/auth-icon';
 import Seo from 'lib/seo';
@@ -12,7 +12,7 @@ const Login: NextPageWithLayoutProps = () => {
         <AuthNavigation hideRestartButton />
         <AuthIcon />
         <div className="mt-8 text-center">
-          <p className="text-[21px]">Amazing!</p>
+          
           <h1 className="mx-auto mt-[13px] w-[250px] text-[18px] font-semibold text-daabo-grey sm:mx-0 sm:w-full sm:text-[21px]">
             Enter your account details to log in
           </h1>
